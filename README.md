@@ -1,4 +1,4 @@
-# Esmarty - A Smart Assistant Chrome Extension 🚀
+# Esmarty - Smart Assistant Chrome Extension 🚀
 
 A lightweight Chrome Extension that allows you to ask questions, reference past queries, and even explain selected text directly from any webpage.
 
