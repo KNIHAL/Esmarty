@@ -1,6 +1,6 @@
 export async function callGemini(prompt) {
   const GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent";
-  const API_KEY = "AIzaSyD9XME8waIzd2HHg3YVTI0VG1nPsH3L7y0";
+  const API_KEY = "YOUR API KEY";
   const response = await fetch(`${GEMINI_API_URL}?key=${API_KEY}`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
