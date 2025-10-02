@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>AI Assistant</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; width: 300px; }
+    #chat { height: 300px; overflow-y: auto; border-bottom: 1px solid #ccc; padding: 10px; }
+    #inputArea { display: flex; }
+    #inp { flex: 1; padding: 8px; }
+    #send { padding: 8px; }
+    .msg { margin: 5px 0; }
+    .user { color: blue; }
+    .bot { color: green; }
+  </style>
+</head>
+<body>
+  <div id="chat"></div>
+  <div id="inputArea">
+    <input id="inp" placeholder="Type your question..." />
+    <button id="send">Send</button>
+  </div>
+
+  <script src="popup/popup.js"></script>
+</body>
+</html>
